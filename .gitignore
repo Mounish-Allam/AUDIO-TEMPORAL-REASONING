@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Outputs
+outputs/
+*.json
+!data/sample_test.json
+
+# Model weights
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
